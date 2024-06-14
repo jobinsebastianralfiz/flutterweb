@@ -4,6 +4,7 @@ import 'package:porfolio/constants/styles.dart';
 import 'package:porfolio/screens/tablet/tablet_layout_page.dart';
 import 'package:porfolio/screens/widgets/count_container_widget.dart';
 import 'package:porfolio/screens/widgets/header_text_widget.dart';
+import 'package:porfolio/screens/widgets/myservice_widgets.dart';
 import 'package:porfolio/screens/widgets/rotating_image_widget.dart';
 
 class MobileLayout extends StatefulWidget {
@@ -105,7 +106,13 @@ class _MobileLayoutState extends State<MobileLayout> {
 
                     ],
                   ),
-                )
+                ),
+
+                SizedBox(
+                  height: size.width * 0.09,
+                ),
+                
+                MyServicesWidget(size: size)
               ],
             ),
           ),

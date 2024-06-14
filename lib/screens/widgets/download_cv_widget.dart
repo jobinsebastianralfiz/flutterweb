@@ -16,16 +16,16 @@ class DownloadCVButton extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.transparent,
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: AppColors.studio)
+          border: Border.all(color: AppColors.paleSlate)
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
 
-          Text("Download CV",style: TextStyle(color: AppColors.studio),),
+          Text("Download CV",style: TextStyle(color: AppColors.paleSlate),),
 
           const SizedBox.square(dimension: 12,),
-          FaIcon(FontAwesomeIcons.download,color: AppColors.studio,size: 18,)
+          FaIcon(FontAwesomeIcons.download,color: AppColors.paleSlate,size: 18,)
         ],
       ),
     );

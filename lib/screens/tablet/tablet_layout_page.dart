@@ -4,6 +4,7 @@ import 'package:porfolio/constants/styles.dart';
 import 'package:porfolio/screens/widgets/count_container_widget.dart';
 import 'package:porfolio/screens/widgets/download_cv_widget.dart';
 import 'package:porfolio/screens/widgets/header_text_widget.dart';
+import 'package:porfolio/screens/widgets/myservice_widgets.dart';
 import 'package:porfolio/screens/widgets/rotating_image_widget.dart';
 import 'package:porfolio/screens/widgets/social_widget.dart';
 
@@ -105,7 +106,9 @@ class _TabletLayoutState extends State<TabletLayout> {
 
                     ],
                   ),
-                )
+                ),
+
+                MyServicesWidget(size: size)
               ],
             ),
           ),
